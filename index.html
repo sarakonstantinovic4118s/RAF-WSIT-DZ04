@@ -1,0 +1,165 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Poslastičarnica</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/main.js"></script>
+        
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <img src="images/logo.png" alt="logo">
+                <span class="moto">Učinite svoj život još slađim!</span>
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li><a href="index.html">Početna</a></li>
+                        <li><a href="onama.html">O nama</a></li>
+                        <li><a href="Onama.html#slike">Galerija</a></li>
+                        <li><a href="index.html#proizvodi">Proizvodi</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="main">
+                <div class="leftSide">
+                    <form action="" method="POST">
+                        <h2>Postanite naš novi član:</h2>
+                        <p>Ime i prezime:<input type="text" name="imeprezime"></p>
+                        <p>Korisničko ime:<input type="text" size="10" name="username"></p>
+                        <br />
+                        <p></p>
+                        <p></p>
+                        <p>Email:<input type="text" name="email"></p>
+                        <p>Šifra:<input type="password" name="password"></p>
+                        <br />
+                        <p>Pol:<br /><input type="radio" name="Pol" value="muski" checked>Muški<input type="radio" name="Pol" value="zenski">Ženski</p>
+                        <p>Država:
+                            <select name="drzava">
+                                <option selected>Srbija</option>
+                                <option>Bosna i Hercegovina</option>
+                                <option>Hrvatska</option>
+                            </select>
+                        </p>
+                        <p><input type="submit" value="Potvrdi"></p>
+                    </form>
+                </div>
+                <div class="centralPart" id="proizvodi">
+                        <div class="proizvod">
+                                <h1>Kornet vanila čokolada</h1>
+                                <img src="images/proizvod1.jpg" alt="vanila čokolada">
+                                <div class="opis">
+                                        <p>Vanila i čokolada, kada nemate vremena za razmišljanje - malo klasike, malo smelosti.</p>
+                                        <form action="">
+                                            <p>Kolicina: <input type="number" min="0" name="kolicina"></p>
+                                            <p>Cena: 200 din</p>
+                                            <input type="submit" value="Dodaj u korpu">
+                                        </form>
+                                </div>
+                        </div>
+                        <div class="proizvod">
+                                <h1>Kornet vanila</h1>
+                                <img src="images/proizvod2.jpg" alt="vanila">
+                                <div class="opis">
+                                        <p>Kornet i vanila,
+                                                To su srca dva,
+                                                Čak i malo veća
+                                                od čokoladnih mrvica.</p>
+                                        <form action="">
+                                            <p>Kolicina: <input type="number" min="0" name="kolicina"></p>
+                                            <p>Cena: 150 din</p>
+                                            <input type="submit" value="Dodaj u korpu">
+                                        </form>
+                                </div>
+                        </div>
+                        <div class="proizvod">
+                                <h1>Kugla po izboru u čaši</h1>
+                                <img src="images/proizvod3.jpeg" alt="ukus u čaši">
+                                <div class="opis">
+                                        <p>Ono doba godine kada odeš na sladoled da se zagreješ.</p>
+                                        <form action="">
+                                            <p>Kolicina: <input type="number" min="0" name="kolicina"></p>
+                                            <p>Cena: 120 din</p>
+                                            <input type="submit" value="Dodaj u korpu">
+                                        </form>
+                                </div>
+                        </div>
+                        <div class="proizvod">
+                                <h1>Magični ukus zrna kafe</h1>
+                                <img src="images/proizvod4.jpg" alt="ukus kafe">
+                                <div class="opis">
+                                        <p>Zrna kafe u čokoladu, pa sve to u sladoled od kikiriki putera. Kafa sa perecama u kikiriki puteru.</p>
+                                        <form action="">
+                                            <p>Kolicina: <input type="number" min="0" name="kolicina"></p>
+                                            <p>Cena: 100 din</p>
+                                            <input type="submit" value="Dodaj u korpu">
+                                        </form>
+                                </div>
+                        </div>
+                        <div class="proizvod">
+                                <h1>Kornet limun čokolada</h1>
+                                <img src="images/proizvod5.jpg" alt="limun čokolada">
+                                <div class="opis">
+                                        <p>Limun Svemoćni, jači i od Petka Kišnog</p>
+                                        <form action="">
+                                            <p>Kolicina: <input type="number" min="0" name="kolicina"></p>
+                                            <p>Cena: 100 din</p>
+                                            <input type="submit" value="Dodaj u korpu">
+                                        </form>
+                                </div>
+                        </div>
+                        <div class="proizvod">
+                                <h1>Kugle po izboru</h1>
+                                <img src="images/proizvod6.jpg" alt="kugle po izboru">
+                                <div class="opis">
+                                        <p>Gde ima mesta za Malinu i Mango, ima i za Crvenu pomorandžu.</p>
+                                        <form action="">
+                                            <p>Kolicina: <input type="number" min="0" name="kolicina"></p>
+                                            <p>Cena: 80 din</p>
+                                            <input type="submit" value="Dodaj u korpu">
+                                        </form>
+                                </div>
+                        </div>
+                </div>
+
+                <div class="rightSide">
+                    <h2>Najnovije vesti:</h2>
+                    <hr>
+                        <div class="vest">
+                                <h3>Ketering za sve prilike</h3>
+                                <h4>Želite sladoled sa posebnim dizajnom, ukusom ili oblikom? Na pravoj ste adresi, jer 
+                                    Rocky point poslastičari želje pretvaraju u stvarnost. Potrebno je da najavite svoju porudžbinu 
+                                    bar 1 dan ranije i poručite ukus po želji.</h4>
+                                <img src="images/vest1.jpg" alt="vest_slika">
+                        </div>
+                        <div class="vest">
+                                <h3>Besplatan sladoled svakog ponedeljka!</h3>
+                                <h4>Podeli svoje slatke momente na Instagramu sa @RockyPoint uz #MyFavIceCream. Svakog ponedeljka nagrađujemo 
+                                    najzanimljivije objave sa mnogo kugli po želji. Uz malo truda osvoji nagradu po svom ukusu!</h4>
+                                <img src="images/vest2.jpg" alt="vest_slika">
+                        </div>
+                        <div class="vest">
+                                <h3>Novi ukus - Milka</h3>
+                                <h4>Proleće je postalo još sladje! Ljubičastom i belom čokoladom smo prelili sočnu vanilu, a zatim ispunili sredinu 
+                                    nugatom i belom čokoladom. I tako je nastao tron za veličanstvenu ljubičastu njam kraljicu.</h4>
+                                <img src="images/vest3.jpg" alt="vest_slika">
+                        </div>
+                </div>
+            </div>
+
+            <div class="footer"> 
+                <p id="copy"><span>Sara Konstantinović s41/18, Knez Mihajlova 6, skonstantinovic4118s@raf.rs, 011/1234-56-78</span></p>
+            </div>
+
+        </div>
+    </body>
+</html>

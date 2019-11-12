@@ -1,0 +1,267 @@
+*{
+	box-sizing: border-box;
+}
+
+.oNama{
+    color: #f1f1f1;
+    font-size:20px;
+}
+
+form{
+    color: #f1f1f1;
+}
+
+body{
+    background: url("../images/background.jpg") repeat;
+}
+
+h1, h2, h3{
+    color: #f1f1f1;
+}
+
+.header img{
+    width: 230px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.header{
+    display: inline-block;
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.moto{
+    position: absolute;
+    top:30%;
+    width: 500px;
+    padding-left: 50px;
+    color:#f1f1f1;
+    font-weight: bold;
+    font-size: 36;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul li{
+    float: left;
+    display: inline-block;
+    height: 40px;
+    width: 18%;
+    margin: 0 0 0 18px;
+    text-align: center;
+    font-size: 40px;
+}
+
+ul li a{
+    display: block;
+    color:#f1f1f1;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    border: 1px solid #f1f1f1;
+}
+
+/*hamburger*/
+.hamburger{
+    width: 55px;
+    height: 55px;
+    border: 1px solid #f1f1f1;
+    padding:10px;  
+    display: none;
+}
+.hamburger .line
+{
+    width: 35px;
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 80%;
+    background-color: #f1f1f1;
+    height: 5px;
+    
+}
+
+.main{
+    width: 100%;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.leftSide{
+    width: 15%;
+    float: left;
+    color: #f1f1f1;
+}
+
+.rightSide .vest img{
+    width: 100%;
+}
+
+.rightSide{
+    width: 20%;
+    float: right;
+}
+
+.rightSide_kontakt{
+    display: inline-block;
+    margin-left: 10%;
+}
+
+.leftSide_kontakt{
+    display: inline-block;
+    margin-left: 5%;
+    
+}
+
+.centralPart{
+    width: 60%;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.centralPart .proizvod{
+    display: inline-block;
+    width: 48%;
+    height: 500px;
+    padding: 10px;
+    margin: 5px auto;
+    border-radius: 20px;
+    border: 1px solid #f1f1f1;
+    background: rgba(200, 200, 200, 0.2);
+    text-align: center;
+}
+
+.centralPart .proizvod img{
+    width: 200px;
+    height: 200px;
+}
+
+.proizvod .opis{
+    vertical-align: top;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.proizvod .opis input[type = submit]{
+    margin-left: 50%;
+}
+
+/*footer*/
+.footer{
+    text-align: center;
+    color: #f1f1f1;
+    font: 16px bold;
+}
+
+#footer p { 
+	margin: 0 0 12px;
+	padding: 6px 0;
+}
+
+#footer_menu {
+	float: right;
+	padding: 4px 0 0;
+}
+
+#copy { 
+    color: #f1f1f1; 
+    font-size: 1em; 
+}
+
+#copy span { 
+	color: #f1f1f1; 
+}
+
+/*responsive*/
+@media only screen and (max-width:1024px){
+    .moto{
+        display: none;
+    }
+
+    .leftSide{
+        display: block;
+        width: 100%;
+    }
+
+    .centralPart{
+        display: block;
+        margin: 0;
+        width: 100%;
+    }
+
+    .centralPart .proizvod{
+        width: 100%;
+        height: auto;
+    }
+
+    .rightSide{
+        display: block;
+        width: 100%;
+        float: none;
+    }
+
+    h4{
+        color: #f1f1f1;
+    }
+
+    iframe{
+        width: 100%;
+    }
+
+    .main{
+        padding: 0;
+    }
+
+    .rightSide_kontakt{
+        width: 100%;
+        margin: 0;
+    }
+
+    .leftSide_kontakt{
+        width: 100%;
+        margin: 0;
+    }
+
+    input[name="naslov"] {
+        width: 100%;
+    }
+
+    textarea{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:800px){
+    .nav{
+        display: none;
+    }
+
+    ul li {
+        display: block;
+        width: 100%;
+        text-align: left;
+        margin: 10px;
+    }
+
+    ul li a:hover{
+        border: 1px solid #f1f1f1;
+    }
+
+    .hamburger
+    {
+        display: block;
+    }
+}

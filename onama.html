@@ -1,0 +1,225 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Poslastičarnica</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/lightbox.css">
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/lightbox.js"></script>
+        <script src="js/main.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="header">
+                <img src="images/logo.png" alt="logo">
+                <span class="moto">Učinite svoj život još slađim!</span>
+
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li><a href="index.html">Početna</a></li>
+                        <li><a href="onama.html">O nama</a></li>
+                        <li><a href="Onama.html#slike">Galerija</a></li>
+                        <li><a href="index.html#proizvodi">Proizvodi</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="main">
+
+                <div class="centralPart">
+                    <h1>Ovo je naša priča!</h1>
+                    <hr>
+                    <br />
+
+                    <p class="oNama">
+                    Rocky point priča je ljubavna priča. U toj priči, princeza se zaljubila u sladoled i tako 
+                    je nastao Rocky point. Dok princeza čeka svog princa, ona vredno radi i otkriva nove ukuse, 
+                    oblike i dekoracije koje čine Rocky point sladolede jedinstvenim.
+                    Sladoledi koji nastaju iz ljubavi princeze imaju tu moć da spoje krajnosti u savršeno 
+                    zadovoljstvo, gde tradicionalni recepti naših baka i najkvalitetniji sastojci i 
+                    prelivi, uz moderno pakovanje i dekoraciju osvajaju na prvi pogled.
+                    Rocky point sladoledi osvajaju i naše bake, čije smo tradicionalne recepte pretvorili 
+                    u poslasticu koja sve vraća u detinjstvo.
+                    I tako, sada ovde žive sladoledi, slatki i neobični, svih ukusa i oblika: dostupni svima 
+                    za degustaciju ili preterivanje, u svakom slučaju za uživanje.
+                    </p>
+
+                </div>
+                <div class="row" id="slike">
+                        <div class="column">
+                          <img src="images/lb1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                        </div>
+                        <div class="column">
+                          <img src="images/lb2.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+                        </div>
+                        <div class="column">
+                          <img src="images/lb3.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+                        </div>
+                        <div class="column">
+                          <img src="images/lb4.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+                        </div>
+                        <div class="column">
+                            <img src="images/lb5.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+                        </div>
+                        <div class="column">
+                            <img src="images/lb6.jpg" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+                        </div>
+
+                </div>
+                <div class="row">
+                        <div class="column">
+                          <img src="images/Avocado-Ice-Cream.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                        </div>
+                        <div class="column">
+                          <img src="images/Butter-Pecan-Ice-Cream.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+                        </div>
+                        <div class="column">
+                          <img src="images/cheesecake-batter-ice-cream.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+                        </div>
+                        <div class="column">
+                          <img src="images/cotton-candy-ice-cream.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+                        </div>
+                        <div class="column">
+                            <img src="images/ice-cream-pops.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+                        </div>
+                        <div class="column">
+                            <img src="images/family-pack-vanilla-ice-cream.png" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+                        </div>
+
+                </div>
+                      
+                      <div id="myModal" class="modal">
+                        <span class="close cursor" onclick="closeModal()">&times;</span>
+                        <div class="modal-content">
+                      
+                            <div class="mySlides">
+                                <div class="numbertext">1 / 6</div>
+                                <img src="images/lb1.jpg" style="width:100%">
+                            </div>
+                        
+                            <div class="mySlides">
+                                <div class="numbertext">2 / 6</div>
+                                <img src="images/lb2.jpg" style="width:100%">
+                            </div>
+                        
+                            <div class="mySlides">
+                                <div class="numbertext">3 / 6</div>
+                                <img src="images/lb3.jpg" style="width:100%">
+                            </div>
+                            
+                            <div class="mySlides">
+                                <div class="numbertext">4 / 6</div>
+                                <img src="images/lb4.jpg" style="width:100%">
+                            </div>
+
+                            <div class="mySlides">
+                                <div class="numbertext">5 / 6</div>
+                                <img src="images/lb5.jpg" style="width:100%">
+                            </div>
+
+                            <div class="mySlides">
+                                <div class="numbertext">6 / 6</div>
+                                <img src="images/lb6.jpg" style="width:100%">
+                            </div>
+
+                            <br />
+
+                            <div class="mySlides">
+                                    <div class="numbertext">1 / 7</div>
+                                    <img src="images/Avocado-Ice-Cream.jpg" style="width:100%">
+                                </div>
+                            
+                                <div class="mySlides">
+                                    <div class="numbertext">2 / 8</div>
+                                    <img src="images/Butter-Pecan-Ice-Cream.jpg" style="width:100%">
+                                </div>
+                            
+                                <div class="mySlides">
+                                    <div class="numbertext">3 / 9</div>
+                                    <img src="images/cheesecake-batter-ice-cream.jpg" style="width:100%">
+                                </div>
+                                
+                                <div class="mySlides">
+                                    <div class="numbertext">4 / 10</div>
+                                    <img src="images/cotton-candy-ice-cream.jpg" style="width:100%">
+                                </div>
+    
+                                <div class="mySlides">
+                                    <div class="numbertext">5 / 11</div>
+                                    <img src="images/ice-cream-pops.jpg" style="width:100%">
+                                </div>
+    
+                                <div class="mySlides">
+                                    <div class="numbertext">6 / 12</div>
+                                    <img src="images/family-pack-vanilla-ice-cream.png" style="width:100%">
+                                </div>
+                          
+                          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                      
+                          <div class="caption-container">
+                            <p id="caption"></p>
+                          </div>
+                      
+                      
+                            <div class="column">
+                            <img class="demo cursor" src="images/lb1.jpg" style="width:100%" onclick="currentSlide(1)" alt="">
+                            </div>
+                            <div class="column">
+                            <img class="demo cursor" src="images/lb2.jpg" style="width:100%" onclick="currentSlide(2)" alt="">
+                            </div>
+                            <div class="column">
+                            <img class="demo cursor" src="images/lb3.jpg" style="width:100%" onclick="currentSlide(3)" alt="">
+                            </div>
+                            <div class="column">
+                            <img class="demo cursor" src="images/lb4.jpg" style="width:100%" onclick="currentSlide(4)" alt="">
+                            </div>
+                            <div class="column">
+                            <img class="demo cursor" src="images/lb5.jpg" style="width:100%" onclick="currentSlide(5)" alt="">
+                            </div>
+                            <div class="column">
+                            <img class="demo cursor" src="images/lb6.jpg" style="width:100%" onclick="currentSlide(6)" alt="">
+                            </div>
+
+                            <br />
+
+                            <div class="column">
+                                <img class="demo cursor" src="images/Avocado-Ice-Cream.jpg" style="width:100%" onclick="currentSlide(7)" alt="">
+                            </div>
+                            <div class="column">
+                                <img class="demo cursor" src="images/Butter-Pecan-Ice-Cream.jpg" style="width:100%" onclick="currentSlide(8)" alt="">
+                            </div>
+                            <div class="column">
+                                <img class="demo cursor" src="images/cheesecake-batter-ice-cream.jpg" style="width:100%" onclick="currentSlide(9)" alt="">
+                            </div>
+                            <div class="column">
+                                <img class="demo cursor" src="images/cotton-candy-ice-cream.jpg" style="width:100%" onclick="currentSlide(10)" alt="">
+                            </div>
+                            <div class="column">
+                                <img class="demo cursor" src="images/ice-cream-pops.jpg" style="width:100%" onclick="currentSlide(11)" alt="">
+                            </div>
+                            <div class="column">
+                                <img class="demo cursor" src="images/family-pack-vanilla-ice-cream.png" style="width:100%" onclick="currentSlide(12)" alt="">
+                            </div>
+
+                        </div>
+                      </div>
+
+            </div>
+
+            <div class="footer"> 
+                <p id="copy"><span>Sara Konstantinović s41/18, Knez Mihajlova 6, skonstantinovic4118s@raf.rs, 011/1234-56-78</span></p>
+            </div>
+
+        </div>
+    </body>
+</html>
